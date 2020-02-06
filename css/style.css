@@ -303,7 +303,7 @@ body {
 
 /* ICON */
 
-.icon-settings::before {
+.about__item--icon-settings::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -315,7 +315,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.icon-safe::before {
+.about__item--icon-safe::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -327,7 +327,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.icon-world::before {
+.about__item--icon-world::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -339,7 +339,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.icon-compass::before {
+.about__item--icon-compass::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -504,7 +504,7 @@ body {
   cursor: pointer;
 }
 
-.icon-like::before {
+.action__button--icon-like::before {
   content: "";
   background-image: url(../images/icons/like.png);
   background-repeat: no-repeat;
@@ -517,7 +517,7 @@ body {
   z-index: 4;
 }
 
-.icon-arrow::before {
+.action__button--icon-arrow::before {
   content: "";
   background-image: url(../images/icons/arrows.png);
   background-repeat: no-repeat;
@@ -530,7 +530,7 @@ body {
   z-index: 4;
 }
 
-.icon-clock::before {
+.action__button--icon-clock::before {
   content: "";
   background-image: url(../images/icons/clock.png);
   background-repeat: no-repeat;
@@ -543,7 +543,7 @@ body {
   z-index: 4;
 }
 
-.icon-basket::before {
+.action__button--icon-basket::before {
   content: "";
   background-image: url(../images/icons/basket.png);
   background-repeat: no-repeat;
